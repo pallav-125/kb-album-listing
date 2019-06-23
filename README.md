@@ -2,7 +2,7 @@
 
 Clone the repo or navigate to the folder 'kb-album-listing
 
-DO the foolowing operations: 
+Do the following operations: 
 
 > npm install
 

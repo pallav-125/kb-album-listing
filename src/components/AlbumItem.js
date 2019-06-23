@@ -5,7 +5,7 @@ const AlbumItem = ({album}) => {
     const albumPhotos = album.photos.map(cover => {
         return (
             <div key={cover.id}>
-                <img src={cover.url} alt={cover.title} />
+                <img src={cover.thumbnailUrl} alt={cover.title} />
                 <p className="cover-title" title={cover.title}>{cover.title}</p>
                 <p>id: {cover.id}</p>
             </div>

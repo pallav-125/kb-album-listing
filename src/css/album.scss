@@ -1,0 +1,18 @@
+.album-list {
+    height: 500px;
+    overflow: auto;
+
+    .album-item {
+        width: 600px;
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid gray;
+
+        .cover-title {
+            white-space: nowrap; 
+            width: 90px; 
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}

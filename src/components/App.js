@@ -62,7 +62,7 @@ class App extends React.Component {
 
     render() {
         if (this.state.pagedAlbums.length === 0) {
-            return <h1>loading...</h1>;
+            return <h1>Please wait, loading Albums...</h1>;
         } else {
             console.log(this.state);
             return (

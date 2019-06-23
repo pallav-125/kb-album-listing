@@ -4,8 +4,8 @@ import InfiniteCarousel from 'react-leaf-carousel';
 const AlbumItem = ({album}) => {
     const albumPhotos = album.photos.map(cover => {
         return (
-            <div key="alcoverb.id">
-                <img src="https://via.placeholder.com/150/92c952" alt="{cover.title}" />
+            <div key={cover.id}>
+                <img src={cover.url} alt={cover.title} />
                 <p className="cover-title" title={cover.title}>{cover.title}</p>
                 <p>id: {cover.id}</p>
             </div>
